@@ -1,0 +1,37 @@
+/* Inserta tu codigo aqui */
+*{
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+footer, header{
+	background-color: black;
+}
+body{
+	background-color: #424242
+}
+              /* Header */
+/* Menu */
+
+/* Seccion 1 Spring Came*/
+.cuadronegro{
+	background-color: black;
+	opacity: 0.5;
+}
+.bg-floresmoradas{
+	background-image: url("../image/header-image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
