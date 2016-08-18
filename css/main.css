@@ -1,27 +1,44 @@
 /* Inserta tu codigo aqui */
+/* Universales */
 *{
 	color: white;
 }
 a{
 	text-decoration: none;
 }
+a:hover{
+	background-color: gray;
+}
+.bg-floresmoradas, img:hover{
+	-moz-box-shadow: 0 0 20px purple; 
+	-webkit-box-shadow: 0 0 20px purple;
+	 box-shadow: 0 0 20px purple;
+}
+/* Fondos */
 footer, header{
 	background-color: black;
 }
 article{
 	background-color: #424242;
 }
-              /* Header */
-/* Menu */
-nav{
-	margin-left:40%;
+/* Margins y Paddings */
+.ml-0{
+	margin-left: 0%;
 }
-ul{
-	list-style: none;
+.ml-3{
+	margin-left: 3%;
 }
-li{
-	display: inline-block;
-	margin: 15% 2%;
+.pr-0{
+	padding-right: 0%;
+}
+.pl-15{
+	padding-left: -15%;
+}
+.mg-0{
+	margin: 0%;
+}
+.pd-0{
+	padding: 0px;
 }
 .pb-2{
 	padding-bottom: 2%;
@@ -29,15 +46,30 @@ li{
 .pt-2{
 	padding-top: 2%;
 }
+.mt-3{
+	margin-top: 3%;
+}
 .md-3{
-	margin-bottom: 5%;
+	margin-bottom: 3%;
+}
+              /* Header */
+/* Menu */
+.navbar.navbar-default{
+	background-color: black;
+	width: 100%;
+}
+ul{
+	list-style: none;
+	margin-left:20% !important;
+}
+li{
+	margin: 9% 0%;
 }
 .orange{
 	color: orange;
 }
 /* Seccion 1 Spring Came*/
-.cuadronegro{
-	background-color: black;
+#textobg{
 	width:80%;
 	padding: 5% 0%;
 	margin-top: 10%;
@@ -59,31 +91,33 @@ li{
 .cuadronegro1{
 	background-color: black;
 }
-#cnf{
-	margin-top: 5%;
-}
                         /* Seccion3 */
 /* Articulo */
 
 /* Video */
 iframe{
-width:640px;
-height:560px; 
+width:100%;
+height:100%; 
+margin-bottom: 3%;
 frameborder:none; 
-webkitallowfullscreen 
+/* webkitallowfullscreen 
 mozallowfullscreen 
-allowfullscreen
+allowfullscreen */
 }
 /* Buscador */
 form{
 	margin-left: 16%;
 }
+/* Iconos */
+i{
+	font-size: 30%;
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-
+   
 }
 
 @media screen and (max-width: 600px) {
-
+ 
 }
